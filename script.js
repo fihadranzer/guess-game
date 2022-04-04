@@ -35,8 +35,8 @@ start.addEventListener('click', function(){
         player.innerHTML = "Player 2";
         start.style.display = "none";
         player1.style.display = "none";
-        player2.style.display = "inline-block";
-        guess.style.display = "inline-block";
+        player2.style.display = "block";
+        guess.style.display = "block";
         warning.style.display="none"
         chanceAmount.innerHTML = `You Have ${chance} chances`;
     }
