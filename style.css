@@ -1,0 +1,120 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Work Sans", sans-serif;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+.h1 {
+  font-size: 3.6rem;
+  font-weight: 600;
+}
+.h2 {
+  font-size: 2.8rem;
+  font-weight: 600;
+}
+.h3 {
+  font-size: 2.4rem;
+  font-weight: 600;
+}
+.h4 {
+  font-size: 1.8rem;
+  font-weight: 600;
+}
+.h5 {
+  font-size: 1.6rem;
+  font-weight: 600;
+}
+.h6 {
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.container {
+  background-image: url("./images/doodad.png");
+  height: 100vh;
+  background-size: contain;
+  max-width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.game-box {
+  box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px,
+    rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
+
+  display: flex;
+  justify-content: center;
+  background-color: #fff;
+  padding: 5rem;
+  width: 60%;
+  margin: 5rem 0;
+  border-radius: 1rem;
+
+}
+
+.game-inner-box {
+  text-align: center;
+}
+
+.avatar img {
+  height: 10rem;
+  margin-bottom: 1rem;
+}
+
+.avatar {
+  text-align: center;
+}
+
+input {
+  padding: 1.2rem 4rem;
+  display: block;
+  font-size: 2.6rem;
+  margin: 1rem 0;
+  border: 1px solid gray;
+  color: rgb(61, 61, 61);
+}
+
+input:focus {
+  outline: none;
+}
+
+input::placeholder {
+  font-size: 2.6rem;
+ 
+}
+
+button {
+  padding: 1.2rem 4rem;
+  font-size: 2.6rem;
+  background-color: #1db954;
+  border: none;
+  border-radius: 0.5rem;
+  color: #fff;
+  cursor: pointer;
+  transition: all 0.4 ease-in-out;
+}
+
+button:hover {
+  background-color: #00ab66;
+}
+
+.warning{
+    background-color: rgba(255, 0, 0, 0.103);
+    color: red;
+    margin: 1rem 0;
+    font-size: 1.2rem;
+    display: inline-block;
+}
+
+.player2,
+.guess {
+  display: none;
+}
