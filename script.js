@@ -17,7 +17,7 @@ let result = document.querySelector('.result');
 
 
 let imagepro = document.querySelector('.imagepro');
-
+let lostbg = document.querySelector('.game-box')
 let chanceAmount = document.querySelector('.chance');
 let gamestaus = document.querySelector('.gamestaus');
 
@@ -50,6 +50,7 @@ guess.addEventListener('click', function(){
   
    if(player1.value === player2.value){
     result.innerHTML = "Congratulations ! You Won the game";
+    lostbg.style.backgroundColor = "#00ab6718"
     guess.style.display ="none"
    }else if(player1.value !== player2.value){
    
@@ -59,6 +60,7 @@ guess.addEventListener('click', function(){
     gamestaus.innerHTML = "Game Over"
     guess.style.display ="none"
     result.innerHTML = "You Lost !";
+    lostbg.style.backgroundColor = "rgba(255, 0, 0, 0.103)"
     }else{
 
     }

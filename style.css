@@ -12,6 +12,11 @@ html {
   font-size: 62.5%;
 }
 
+.result {
+  font-size: 3.6rem;
+  font-weight: 600;
+  color: rgb(255, 66, 41);
+}
 .h1 {
   font-size: 3.6rem;
   font-weight: 600;
@@ -57,7 +62,6 @@ html {
   width: 60%;
   margin: 5rem 0;
   border-radius: 1rem;
-
 }
 
 .game-inner-box {
@@ -88,7 +92,6 @@ input:focus {
 
 input::placeholder {
   font-size: 2.6rem;
- 
 }
 
 button {
@@ -106,12 +109,16 @@ button:hover {
   background-color: #00ab66;
 }
 
-.warning{
-    background-color: rgba(255, 0, 0, 0.103);
-    color: red;
-    margin: 1rem 0;
-    font-size: 1.2rem;
-    display: inline-block;
+.warning {
+  background-color: rgba(255, 0, 0, 0.103);
+  color: red;
+  margin: 1rem 0;
+  font-size: 1.2rem;
+  display: inline-block;
+}
+
+.player{
+    margin-bottom: 2rem;
 }
 
 .player2,
