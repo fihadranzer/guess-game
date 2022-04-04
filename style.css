@@ -120,6 +120,9 @@ button:hover {
 .player{
     margin-bottom: 2rem;
 }
+.instruct{
+    color: gray;
+}
 
 .player2,
 .guess {
